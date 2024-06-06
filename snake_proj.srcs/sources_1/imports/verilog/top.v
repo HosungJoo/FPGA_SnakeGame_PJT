@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 
 module top(
-    input CLK100MHZ, // 100MHzÊ±ÖÓ
-    input reset, // ÖØĞÂ¿ªÊ¼
-    input up,right,down,left, // ·½Ïò¼ü
-    input pause, // ÔİÍ£
-    input slow_down, // ¼õËÙ
-    output [7:0] an, // ÊıÂë¹ÜÊ¹ÄÜ
-    output [7:0] seg, // ÊıÂë¹ÜÊä³ö
-    output [11:0] vga, // vgaÏÔÊ¾Êä³ö£¬Ë³ĞòÎªR,G,B¸÷4Î»
-    output h_sync,v_sync, // ĞĞ¡¢ÁĞÉ¨ÃèĞÅºÅ
+    input CLK100MHZ, 
+    input reset, 
+    input up,right,down,left, 
+    input pause, 
+    input slow_down, 
+    output [7:0] an, 
+    output [7:0] seg, 
+    output [11:0] vga, 
+    output h_sync,v_sync, 
 	output [2:0] leds,
 	output buzzer
 );
@@ -24,31 +24,31 @@ module top(
     
 	assign leds = {pause,slow_down,reset};
     
-    wire CLK148DOT5MHZ; // 148.5MhzÊ±ÖÓ
+    wire CLK148DOT5MHZ; // 148.5Mhz
 	
-	// ÓÃÓÚÄ£¿é¼ä´«µİ¶şÎ¬Êı×é [5:0] snake_x/y [31:0]
-	// ²Î¿¼×Ô https://stackoverflow.com/questions/16369698/how-to-pass-array-structure-between-two-verilog-modules
-    wire [32*6-1:0] snake_x_temp; // ÉßÉí×ø±êÁÙÊ±±äÁ¿
-    wire [32*6-1:0] snake_y_temp; // ÉßÉí×ø±êÁÙÊ±±äÁ¿
+	 [5:0] snake_x/y [31:0]
+	
+    wire [32*6-1:0] snake_x_temp; 
+    wire [32*6-1:0] snake_y_temp; 
     
-	wire [31:0] snake_piece_is_display;  // ¿ØÖÆÌå³¤
+	wire [31:0] snake_piece_is_display;  
 	
-	wire [5:0] apple_x; // Æ»¹û×ø±ê
-	wire [5:0] apple_y; // Æ»¹û×ø±ê
+	wire [5:0] apple_x; 
+	wire [5:0] apple_y; 
 	
-	// ÓÎÏ·×´Ì¬ 00: LAUNCHING  01: PLAYING   10:DIE_FLASHING   11: INITIALIZING
+	//  00: LAUNCHING  01: PLAYING   10:DIE_FLASHING   11: INITIALIZING
 	wire [1:0] game_status; 
 	
-	// ·½Ïò 00: UP   01: Right   10: DOWN   11: LEFT
+	//  00: UP   01: Right   10: DOWN   11: LEFT
 	wire [1:0] current_direction;
 	wire [1:0] next_direction;
 	
 	
 	
-	wire get_apple; // ³Ôµ½Æ»¹û
+	wire get_apple; 
 	
-	wire hit_wall; // ×²Ç½·ñ
-	wire hit_itself; // ×²¼º·ñ
+	wire hit_wall; 
+	wire hit_itself; 
 	
 	wire [15:0] scores;
 	
@@ -56,7 +56,7 @@ module top(
     clk_wiz_0 (CLK148DOT5MHZ,CLK100MHZ);
     
     display (
-        .clock(CLK148DOT5MHZ), // ³ıÁËvga£¬ÆäËü¶¼ÊÇ100MHZµÄclock
+        .clock(CLK148DOT5MHZ), //vgaï¼Œ100MHZclock
         .h_sync(h_sync),
         .v_sync(v_sync),
         .vga(vga),
