@@ -1,6 +1,6 @@
 module display(
-	// ±äÁ¿ËµÃ÷¼ûtopÄ£¿é
-    input clock, // 148.5MHZ£¬ÓÃÓÚÊä³ö1920x1080@60HzµÄVGAĞÅºÅ
+	
+    input clock, 
     input [5:0] apple_x,
     input [5:0] apple_y,
     input [32*6-1:0] snake_x_temp,
@@ -30,7 +30,7 @@ module display(
 	wire in_display_area;
 	
 	    
-	// snake_x[0]£ºÍ·µÄºá×ø±ê  snake_y[0]:Í·µÄ×İ×ø±ê
+	
     reg [5:0] snake_x [31:0];
 	reg [5:0] snake_y [31:0];
 	
@@ -54,14 +54,13 @@ module display(
 	  );	
 	 
 	
-	// ÓÃÓÚÄ£¿é¼ä´«µİ¶şÎ¬Êı×é [5:0] snake_x/y [31:0]
-	// ²Î¿¼×Ô https://stackoverflow.com/questions/16369698/how-to-pass-array-structure-between-two-verilog-modules
+	
 	integer i;
 	always @(snake_x_temp,snake_y_temp)
 	begin
 	for (i=0;i<32;i=i+1)
 		begin
-			// Æ¬Ñ¡
+			// ç‰‡é€‰
 			snake_x[i]<=snake_x_temp[6*i+:6];
 			snake_y[i]<=snake_y_temp[6*i+:6];
 		end
