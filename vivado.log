@@ -1,0 +1,96 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Dec  6 17:12:06 2023
+# Process ID: 13576
+# Current directory: C:/Users/wnght/snake_proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14004 C:\Users\wnght\snake_proj\snake_proj.xpr
+# Log file: C:/Users/wnght/snake_proj/vivado.log
+# Journal file: C:/Users/wnght/snake_proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/wnght/snake_proj/snake_proj.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj' since last save.
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionXsim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionModelSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionQuesta
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionXcelium
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionVCS
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionRiviera
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionActiveHdl
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionXsim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionModelSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionQuesta
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionXcelium
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionVCS
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionRiviera
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionActiveHdl
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name EnableResourceEstimation
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimCompileState
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name ClassicSocBoot
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name LocalIPRepoLeafDirName
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/apple.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/apple.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/audio.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/audio.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/bcdto8segment_dataflow.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/bcdto8segment_dataflow.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/display.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/display.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/fsm.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/fsm.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/score.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/score.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/seg.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/seg.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/snake.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/snake.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/turn.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/turn.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/vga_sync_generator.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/vga_sync_generator.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/top.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/top.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/vga_test.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/vga_test.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/xdc/pin_mapped.xdc', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/xdc/pin_mapped.xdc'.
+ERROR: [Runs 36-378] The checkpoint 'C:/Users/wnght/snake_proj/snake_proj.srcs/utils_1/imports/synth_1/top.dcp' was created with 'Vivado v2023.1.1 (64-bit)', and cannot be opened in this version.
+open_project C:/Users/wnght/Snake/Snake.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/wnght/Snake/Snake.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/wnght/Snake/Snake.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-865] Could not find the file C:/Users/wnght/Snake/Snake.srcs/utils_1/imports/synth_1/top.dcp
+WARNING: [Project 1-509] GeneratedRun file for 'clk_wiz_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'clk_wiz_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'blk_mem_gen_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'c_counter_binary_0_synth_1' not found
+WARNING: [Project 1-865] Could not find the file C:/Users/wnght/Snake/Snake.srcs/utils_1/imports/synth_1/top.dcp
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: : Unexpected end of message
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: C:/Users/wnght/Snake/Snake.srcs/sources_1/ip/c_counter_binary_3/c_counter_binary_3.xci
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: : Unexpected end of message
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: C:/Users/wnght/Snake/Snake.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: : Unexpected end of message
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: C:/Users/wnght/Snake/Snake.srcs/sources_1/ip/c_counter_binary_1/c_counter_binary_1.xci
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: : Unexpected end of message
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: C:/Users/wnght/Snake/Snake.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'clk_wiz_1'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'blk_mem_gen_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: : Unexpected end of message
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: C:/Users/wnght/Snake/Snake.srcs/sources_1/ip/c_counter_binary_0/c_counter_binary_0.xci
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:46 ; elapsed = 00:00:25 . Memory (MB): peak = 1018.133 ; gain = 0.000
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/wnght/Snake/Snake.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci] -no_script -reset -force -quiet
+remove_files  -fileset clk_wiz_1 C:/Users/wnght/Snake/Snake.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci
+INFO: [Project 1-386] Moving file 'C:/Users/wnght/Snake/Snake.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.xci' from fileset 'clk_wiz_1' to fileset 'sources_1'.
+remove_files: Time (s): cpu = 00:00:20 ; elapsed = 00:00:08 . Memory (MB): peak = 1018.133 ; gain = 0.000
+export_ip_user_files -of_objects  [get_files C:/Users/wnght/Snake/Snake.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset blk_mem_gen_0 C:/Users/wnght/Snake/Snake.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+INFO: [Project 1-386] Moving file 'C:/Users/wnght/Snake/Snake.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' from fileset 'blk_mem_gen_0' to fileset 'sources_1'.
+remove_files: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 1018.133 ; gain = 0.000
+reset_run synth_1
+reset_runs: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1018.133 ; gain = 0.000
+launch_runs synth_1 -jobs 6
+[Wed Dec  6 17:36:00 2023] Launched clk_wiz_0_synth_1, c_counter_binary_0_synth_1...
+Run output will be captured here:
+clk_wiz_0_synth_1: C:/Users/wnght/Snake/Snake.runs/clk_wiz_0_synth_1/runme.log
+c_counter_binary_0_synth_1: C:/Users/wnght/Snake/Snake.runs/c_counter_binary_0_synth_1/runme.log
+[Wed Dec  6 17:36:02 2023] Launched synth_1...
+Run output will be captured here: C:/Users/wnght/Snake/Snake.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec  6 17:37:25 2023...

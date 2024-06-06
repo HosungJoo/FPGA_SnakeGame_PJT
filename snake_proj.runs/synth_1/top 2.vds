@@ -1,0 +1,360 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Sun Dec  3 02:02:16 2023
+# Process ID: 63896
+# Current directory: C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/synth_1/top.vds
+# Journal file: C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/synth_1\vivado.jou
+# Running On: DESKTOP-BG4TAG2, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 17092 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental {C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.srcs/utils_1/imports/synth_1/top.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.srcs/utils_1/imports/synth_1/top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top top -part xc7a75tfgg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a75t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a75t'
+INFO: [Device 21-403] Loading part xc7a75tfgg484-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 64364
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1300.039 ; gain = 411.027
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/synth_1/.Xil/Vivado-63896-DESKTOP-BG4TAG2/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/synth_1/.Xil/Vivado-63896-DESKTOP-BG4TAG2/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'display' [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/display.v:1]
+INFO: [Synth 8-6157] synthesizing module 'vga_sync_generator' [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/vga_sync_generator.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'vga_sync_generator' (0#1) [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/vga_sync_generator.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'display' (0#1) [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/display.v:1]
+INFO: [Synth 8-6157] synthesizing module 'snake' [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/snake.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/snake.v:148]
+INFO: [Synth 8-6155] done synthesizing module 'snake' (0#1) [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/snake.v:3]
+INFO: [Synth 8-6157] synthesizing module 'fsm' [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/fsm.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'fsm' (0#1) [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/fsm.v:3]
+INFO: [Synth 8-6157] synthesizing module 'turn' [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/turn.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/turn.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'turn' (0#1) [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/turn.v:3]
+INFO: [Synth 8-6157] synthesizing module 'apple' [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/apple.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'apple' (0#1) [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/apple.v:3]
+INFO: [Synth 8-6157] synthesizing module 'score' [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/score.v:3]
+INFO: [Synth 8-6157] synthesizing module 'c_counter_binary_0' [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/synth_1/.Xil/Vivado-63896-DESKTOP-BG4TAG2/realtime/c_counter_binary_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_counter_binary_0' (0#1) [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/synth_1/.Xil/Vivado-63896-DESKTOP-BG4TAG2/realtime/c_counter_binary_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'c_counter_binary_1' [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/synth_1/.Xil/Vivado-63896-DESKTOP-BG4TAG2/realtime/c_counter_binary_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_counter_binary_1' (0#1) [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/synth_1/.Xil/Vivado-63896-DESKTOP-BG4TAG2/realtime/c_counter_binary_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'c_counter_binary_2' [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/synth_1/.Xil/Vivado-63896-DESKTOP-BG4TAG2/realtime/c_counter_binary_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_counter_binary_2' (0#1) [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/synth_1/.Xil/Vivado-63896-DESKTOP-BG4TAG2/realtime/c_counter_binary_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'c_counter_binary_3' [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/synth_1/.Xil/Vivado-63896-DESKTOP-BG4TAG2/realtime/c_counter_binary_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_counter_binary_3' (0#1) [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/synth_1/.Xil/Vivado-63896-DESKTOP-BG4TAG2/realtime/c_counter_binary_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'seg' [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/seg.v:3]
+INFO: [Synth 8-6157] synthesizing module 'bcdto8segment_dataflow' [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/bcdto8segment_dataflow.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'bcdto8segment_dataflow' (0#1) [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/bcdto8segment_dataflow.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'seg' (0#1) [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/seg.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'score' (0#1) [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/score.v:3]
+INFO: [Synth 8-6157] synthesizing module 'audio' [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/audio.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'audio' (0#1) [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/audio.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/top.v:3]
+WARNING: [Synth 8-6014] Unused sequential element score_reg was removed.  [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/seg.v:46]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1427.988 ; gain = 538.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1427.988 ; gain = 538.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1427.988 ; gain = 538.977
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 1427.988 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/c_counter_binary_3_1/c_counter_binary_3/c_counter_binary_0_in_context.xdc] for cell 'nolabel_line120/nolabel_line34'
+Finished Parsing XDC File [c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/c_counter_binary_3_1/c_counter_binary_3/c_counter_binary_0_in_context.xdc] for cell 'nolabel_line120/nolabel_line34'
+Parsing XDC File [c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/c_counter_binary_2_1/c_counter_binary_2/c_counter_binary_0_in_context.xdc] for cell 'nolabel_line120/nolabel_line33'
+Finished Parsing XDC File [c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/c_counter_binary_2_1/c_counter_binary_2/c_counter_binary_0_in_context.xdc] for cell 'nolabel_line120/nolabel_line33'
+Parsing XDC File [c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/c_counter_binary_1_1/c_counter_binary_1/c_counter_binary_0_in_context.xdc] for cell 'nolabel_line120/nolabel_line32'
+Finished Parsing XDC File [c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/c_counter_binary_1_1/c_counter_binary_1/c_counter_binary_0_in_context.xdc] for cell 'nolabel_line120/nolabel_line32'
+Parsing XDC File [c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/c_counter_binary_0_1/c_counter_binary_0/c_counter_binary_0_in_context.xdc] for cell 'nolabel_line120/nolabel_line31'
+Finished Parsing XDC File [c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/c_counter_binary_0_1/c_counter_binary_0/c_counter_binary_0_in_context.xdc] for cell 'nolabel_line120/nolabel_line31'
+Parsing XDC File [c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'nolabel_line57'
+Finished Parsing XDC File [c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'nolabel_line57'
+Parsing XDC File [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/xdc/pin_mapped.xdc]
+Finished Parsing XDC File [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/xdc/pin_mapped.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/xdc/pin_mapped.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1543.141 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1543.141 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'nolabel_line120/nolabel_line31' at clock pin 'CLK' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'nolabel_line120/nolabel_line32' at clock pin 'CLK' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'nolabel_line120/nolabel_line33' at clock pin 'CLK' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'nolabel_line120/nolabel_line34' at clock pin 'CLK' is different from the actual clock period '10.000', this can lead to different synthesis results.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1543.832 ; gain = 654.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a75tfgg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1543.832 ; gain = 654.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  {c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  {c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for nolabel_line120/nolabel_line34. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for nolabel_line120/nolabel_line33. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for nolabel_line120/nolabel_line32. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for nolabel_line120/nolabel_line31. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for nolabel_line57. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1543.832 ; gain = 654.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1543.832 ; gain = 654.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   30 Bit       Adders := 1     
+	   2 Input   28 Bit       Adders := 1     
+	   2 Input   20 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 1     
+	   2 Input    7 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 5     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               30 Bit    Registers := 1     
+	               28 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 66    
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 8     
++---Multipliers : 
+	               3x32  Multipliers := 1     
++---Muxes : 
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   30 Bit        Muxes := 1     
+	   2 Input   28 Bit        Muxes := 1     
+	   4 Input   25 Bit        Muxes := 1     
+	   9 Input   20 Bit        Muxes := 1     
+	   4 Input   12 Bit        Muxes := 1     
+	   7 Input   12 Bit        Muxes := 1     
+	  70 Input   11 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 420   
+	   8 Input    8 Bit        Muxes := 2     
+	   2 Input    6 Bit        Muxes := 1     
+	   9 Input    4 Bit        Muxes := 1     
+	   8 Input    3 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 4     
+	   6 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 29    
+	   4 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 2     
+	   9 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 180 (col length:80)
+BRAMs: 210 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP nolabel_line72/count3, operation Mode is: (C:0x2dc6c0)-(A:0x186a0)*B.
+DSP Report: operator nolabel_line72/count3 is absorbed into DSP nolabel_line72/count3.
+DSP Report: operator nolabel_line72/count4 is absorbed into DSP nolabel_line72/count3.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1566.055 ; gain = 677.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+----------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping                | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|snake       | (C:0x2dc6c0)-(A:0x186a0)*B | 16     | 17     | 22     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++------------+----------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1571.801 ; gain = 682.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1637.129 ; gain = 748.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1653.379 ; gain = 764.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 1653.379 ; gain = 764.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 1653.379 ; gain = 764.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 1653.379 ; gain = 764.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 1653.379 ; gain = 764.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:52 ; elapsed = 00:00:52 . Memory (MB): peak = 1653.379 ; gain = 764.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:52 ; elapsed = 00:00:52 . Memory (MB): peak = 1653.379 ; gain = 764.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|snake       | C-(A*B)     | 16     | 17     | 22     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++------+-------------------+----------+
+|      |BlackBox name      |Instances |
++------+-------------------+----------+
+|1     |clk_wiz_0          |         1|
+|2     |c_counter_binary_0 |         1|
+|3     |c_counter_binary_1 |         1|
+|4     |c_counter_binary_2 |         1|
+|5     |c_counter_binary_3 |         1|
++------+-------------------+----------+
+
+Report Cell Usage: 
++------+-----------------+------+
+|      |Cell             |Count |
++------+-----------------+------+
+|1     |c_counter_binary |     4|
+|5     |clk_wiz          |     1|
+|6     |CARRY4           |   113|
+|7     |DSP48E1          |     1|
+|8     |LUT1             |    27|
+|9     |LUT2             |   141|
+|10    |LUT3             |    75|
+|11    |LUT4             |   336|
+|12    |LUT5             |   295|
+|13    |LUT6             |   712|
+|14    |MUXF7            |     8|
+|15    |FDCE             |    47|
+|16    |FDPE             |     4|
+|17    |FDRE             |   652|
+|18    |FDSE             |    27|
+|19    |IBUF             |     7|
+|20    |OBUF             |    34|
++------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:52 ; elapsed = 00:00:52 . Memory (MB): peak = 1653.379 ; gain = 764.367
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:44 ; elapsed = 00:00:51 . Memory (MB): peak = 1653.379 ; gain = 648.523
+Synthesis Optimization Complete : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 1653.379 ; gain = 764.367
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1655.238 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 122 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1660.270 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 177845c0
+INFO: [Common 17-83] Releasing license: Synthesis
+56 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1660.270 ; gain = 1172.383
+INFO: [Common 17-1381] The checkpoint 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Dec  3 02:03:22 2023...

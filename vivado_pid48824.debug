@@ -1,0 +1,17 @@
+#--------------------------------------------------------------------------
+# AMD Vivado v2023.1.1 (64-bit)
+# SW Build: 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build: 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build: 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Current time: Sat Dec 02 23:02:38 KST 2023
+# Process ID (PID): 48824
+# User: master
+# OS: Windows 10
+# Project: snake_proj 11
+# Part: xc7a75tfgg484-1
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with AMD.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+Target FileSet is null. Cannot finish Drag-Drop operation.

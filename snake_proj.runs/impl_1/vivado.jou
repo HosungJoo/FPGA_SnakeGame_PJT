@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Sun Dec  3 02:06:13 2023
+# Process ID: 55896
+# Current directory: C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/impl_1
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/impl_1/top.vdi
+# Journal file: C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/impl_1\vivado.jou
+# Running On: DESKTOP-BG4TAG2, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 17092 MB
+#-----------------------------------------------------------
+source top.tcl -notrace

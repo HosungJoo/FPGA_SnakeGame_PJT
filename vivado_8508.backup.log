@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Dec  6 17:10:15 2023
+# Process ID: 8508
+# Current directory: C:/Users/wnght/snake_proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27620 C:\Users\wnght\snake_proj\snake_proj.xpr
+# Log file: C:/Users/wnght/snake_proj/vivado.log
+# Journal file: C:/Users/wnght/snake_proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/wnght/snake_proj/snake_proj.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj' since last save.
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionXsim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionModelSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionQuesta
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionXcelium
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionVCS
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionRiviera
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionActiveHdl
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionXsim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionModelSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionQuesta
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionXcelium
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionVCS
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionRiviera
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionActiveHdl
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name EnableResourceEstimation
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimCompileState
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name ClassicSocBoot
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name LocalIPRepoLeafDirName
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/apple.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/apple.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/audio.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/audio.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/bcdto8segment_dataflow.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/bcdto8segment_dataflow.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/display.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/display.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/fsm.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/fsm.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/score.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/score.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/seg.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/seg.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/snake.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/snake.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/turn.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/turn.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/vga_sync_generator.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/vga_sync_generator.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/top.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/top.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/verilog/vga_test.v', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/verilog/vga_test.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/wnght/src/xdc/pin_mapped.xdc', nor could it be found using path 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/src/xdc/pin_mapped.xdc'.
+ERROR: [Runs 36-378] The checkpoint 'C:/Users/wnght/snake_proj/snake_proj.srcs/utils_1/imports/synth_1/top.dcp' was created with 'Vivado v2023.1.1 (64-bit)', and cannot be opened in this version.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec  6 17:11:37 2023...

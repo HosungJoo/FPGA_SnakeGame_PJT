@@ -1,0 +1,278 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Sat Dec  2 23:00:18 2023
+# Process ID: 48824
+# Current directory: C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent53440 C:\Users\master\iCloudDrive\04. Logic Design Lab\FINAL_PROJ\snake_proj\snake_proj 11.xpr
+# Log file: C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/vivado.log
+# Journal file: C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj\vivado.jou
+# Running On: DESKTOP-BG4TAG2, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 17092 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Work/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.ip_user_files'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/utils_1/imports/synth_1/top.dcp'.
+WARNING: [Project 1-865] Could not find the file C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/utils_1/imports/synth_1/top.dcp
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_0/c_counter_binary_0.xci'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_1/c_counter_binary_1.xci'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_3/c_counter_binary_3.xci'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'clk_wiz_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'c_counter_binary_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'c_counter_binary_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'c_counter_binary_2_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'c_counter_binary_3_synth_1' not found
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'clk_wiz_0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Work/Xilinx/Vivado/2023.1/data/ip'.
+CRITICAL WARNING: [IP_Flow 19-3933] Unable to construct an IP Instance clk_wiz_0 using VLNV :::.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'c_counter_binary_0'.
+CRITICAL WARNING: [IP_Flow 19-3933] Unable to construct an IP Instance c_counter_binary_0 using VLNV :::.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'c_counter_binary_1'.
+CRITICAL WARNING: [IP_Flow 19-3933] Unable to construct an IP Instance c_counter_binary_1 using VLNV :::.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'c_counter_binary_2'.
+CRITICAL WARNING: [IP_Flow 19-3933] Unable to construct an IP Instance c_counter_binary_2 using VLNV :::.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'c_counter_binary_3'.
+CRITICAL WARNING: [IP_Flow 19-3933] Unable to construct an IP Instance c_counter_binary_3 using VLNV :::.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 1502.676 ; gain = 376.809
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+create_ip -name c_counter_binary -vendor xilinx.com -library ip -version 12.0 -module_name c_counter_binary_0
+set_property -dict [list \
+  CONFIG.CE {true} \
+  CONFIG.Final_Count_Value {9} \
+  CONFIG.Output_Width {4} \
+  CONFIG.Restrict_Count {true} \
+  CONFIG.SCLR {true} \
+  CONFIG.Sync_Threshold_Output {true} \
+  CONFIG.Threshold_Value {9} \
+] [get_ips c_counter_binary_0]
+generate_target {instantiation_template} [get_files {{c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_0/c_counter_binary_0.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'c_counter_binary_0'...
+WARNING: [Vivado 12-1783] Unsupported target specified: 'instantiation_template'. Supported targets for this IP are: 'all'. File: 'c_counter_binary_0.xci'. 
+ERROR: [Vivado 12-1773] No legal targets specified.  Supported targets for this IP are: all. File: 'c_counter_binary_0.xci'.
+ERROR: [Common 17-39] 'generate_target' failed due to earlier errors.
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_0/c_counter_binary_0.xci}}] -no_script -reset -force -quiet
+remove_files  {{c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_0/c_counter_binary_0.xci}}
+INFO: [Project 1-385] File 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_0/c_counter_binary_0.xci' already exists in fileset 'sources_1'; deleting from fileset 'c_counter_binary_0'.
+create_ip -name c_counter_binary -vendor xilinx.com -library ip -version 12.0 -module_name c_counter_binary_0
+set_property -dict [list \
+  CONFIG.CE {true} \
+  CONFIG.Final_Count_Value {9} \
+  CONFIG.Output_Width {4} \
+  CONFIG.Restrict_Count {true} \
+  CONFIG.SCLR {true} \
+  CONFIG.Sync_Threshold_Output {true} \
+  CONFIG.Threshold_Value {9} \
+] [get_ips c_counter_binary_0]
+generate_target {instantiation_template} [get_files {{c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_0_1/c_counter_binary_0.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'c_counter_binary_0'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  {{c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_0_1/c_counter_binary_0.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'c_counter_binary_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'c_counter_binary_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'c_counter_binary_0'...
+catch { config_ip_cache -export [get_ips -all c_counter_binary_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: c_counter_binary_0
+export_ip_user_files -of_objects [get_files {{c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_0_1/c_counter_binary_0.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_0_1/c_counter_binary_0.xci}}]
+launch_runs c_counter_binary_0_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: c_counter_binary_0
+[Sat Dec  2 23:03:01 2023] Launched c_counter_binary_0_synth_1...
+Run output will be captured here: C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.runs/c_counter_binary_0_synth_1/runme.log
+export_simulation -of_objects [get_files {{c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_0_1/c_counter_binary_0.xci}}] -directory {C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.ip_user_files} -ipstatic_source_dir {C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/compile_simlib/modelsim} {questa=C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/compile_simlib/questa} {riviera=C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/compile_simlib/riviera} {activehdl=C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_ip -name c_counter_binary -vendor xilinx.com -library ip -version 12.0 -module_name c_counter_binary_1
+set_property -dict [list \
+  CONFIG.CE {true} \
+  CONFIG.Final_Count_Value {9} \
+  CONFIG.Output_Width {4} \
+  CONFIG.Restrict_Count {true} \
+  CONFIG.SCLR {true} \
+  CONFIG.Sync_Threshold_Output {true} \
+  CONFIG.Threshold_Value {9} \
+] [get_ips c_counter_binary_1]
+generate_target {instantiation_template} [get_files {{c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_1/c_counter_binary_1.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'c_counter_binary_1'...
+WARNING: [Vivado 12-1783] Unsupported target specified: 'instantiation_template'. Supported targets for this IP are: 'all'. File: 'c_counter_binary_1.xci'. 
+ERROR: [Vivado 12-1773] No legal targets specified.  Supported targets for this IP are: all. File: 'c_counter_binary_1.xci'.
+ERROR: [Common 17-39] 'generate_target' failed due to earlier errors.
+update_compile_order -fileset sources_1
+create_ip -name c_counter_binary -vendor xilinx.com -library ip -version 12.0 -module_name c_counter_binary_2
+set_property -dict [list \
+  CONFIG.CE {true} \
+  CONFIG.Final_Count_Value {9} \
+  CONFIG.Output_Width {4} \
+  CONFIG.Restrict_Count {true} \
+  CONFIG.SCLR {true} \
+  CONFIG.Sync_Threshold_Output {true} \
+  CONFIG.Threshold_Value {9} \
+] [get_ips c_counter_binary_2]
+generate_target {instantiation_template} [get_files {{c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'c_counter_binary_2'...
+WARNING: [Vivado 12-1783] Unsupported target specified: 'instantiation_template'. Supported targets for this IP are: 'all'. File: 'c_counter_binary_2.xci'. 
+ERROR: [Vivado 12-1773] No legal targets specified.  Supported targets for this IP are: all. File: 'c_counter_binary_2.xci'.
+ERROR: [Common 17-39] 'generate_target' failed due to earlier errors.
+update_compile_order -fileset sources_1
+create_ip -name c_counter_binary -vendor xilinx.com -library ip -version 12.0 -module_name c_counter_binary_3
+set_property -dict [list \
+  CONFIG.CE {true} \
+  CONFIG.Final_Count_Value {9} \
+  CONFIG.Output_Width {4} \
+  CONFIG.Restrict_Count {true} \
+  CONFIG.SCLR {true} \
+  CONFIG.Sync_Threshold_Output {true} \
+  CONFIG.Threshold_Value {9} \
+] [get_ips c_counter_binary_3]
+generate_target {instantiation_template} [get_files {{c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_3/c_counter_binary_3.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'c_counter_binary_3'...
+WARNING: [Vivado 12-1783] Unsupported target specified: 'instantiation_template'. Supported targets for this IP are: 'all'. File: 'c_counter_binary_3.xci'. 
+ERROR: [Vivado 12-1773] No legal targets specified.  Supported targets for this IP are: all. File: 'c_counter_binary_3.xci'.
+ERROR: [Common 17-39] 'generate_target' failed due to earlier errors.
+update_compile_order -fileset sources_1
+INFO: [Device 21-403] Loading part xc7a75tfgg484-1
+create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_0
+set_property -dict [list \
+  CONFIG.CLKOUT1_JITTER {217.614} \
+  CONFIG.CLKOUT1_PHASE_ERROR {245.344} \
+  CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {148.5} \
+  CONFIG.MMCM_CLKFBOUT_MULT_F {37.125} \
+  CONFIG.MMCM_CLKOUT0_DIVIDE_F {6.250} \
+  CONFIG.MMCM_DIVCLK_DIVIDE {4} \
+  CONFIG.USE_LOCKED {false} \
+  CONFIG.USE_RESET {false} \
+] [get_ips clk_wiz_0]
+generate_target {instantiation_template} [get_files {{c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+WARNING: [Vivado 12-1783] Unsupported target specified: 'instantiation_template'. Supported targets for this IP are: 'all'. File: 'clk_wiz_0.xci'. 
+ERROR: [Vivado 12-1773] No legal targets specified.  Supported targets for this IP are: all. File: 'clk_wiz_0.xci'.
+ERROR: [Common 17-39] 'generate_target' failed due to earlier errors.
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'c_counter_binary_3'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: c_counter_binary_3
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 62eb0f5e23cca902 to dir: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_3
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/ip/2023.1.1/6/2/62eb0f5e23cca902/c_counter_binary_0.dcp to c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_3/c_counter_binary_3.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_3/c_counter_binary_3.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/ip/2023.1.1/6/2/62eb0f5e23cca902/c_counter_binary_0_sim_netlist.v to c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_3/c_counter_binary_3_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_3/c_counter_binary_3_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/ip/2023.1.1/6/2/62eb0f5e23cca902/c_counter_binary_0_sim_netlist.vhdl to c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_3/c_counter_binary_3_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_3/c_counter_binary_3_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/ip/2023.1.1/6/2/62eb0f5e23cca902/c_counter_binary_0_stub.v to c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_3/c_counter_binary_3_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_3/c_counter_binary_3_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/ip/2023.1.1/6/2/62eb0f5e23cca902/c_counter_binary_0_stub.vhdl to c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_3/c_counter_binary_3_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_3/c_counter_binary_3_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP c_counter_binary_3, cache-ID = 62eb0f5e23cca902; cache size = 0.103 MB.
+INFO: [Project 1-385] File 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_3/c_counter_binary_3.xci' already exists in fileset 'sources_1'; deleting from fileset 'c_counter_binary_3'.
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_3/c_counter_binary_3.xci' is already up-to-date
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'c_counter_binary_2'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: c_counter_binary_2
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 62eb0f5e23cca902 to dir: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_2
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/ip/2023.1.1/6/2/62eb0f5e23cca902/c_counter_binary_0.dcp to c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_2/c_counter_binary_2.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_2/c_counter_binary_2.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/ip/2023.1.1/6/2/62eb0f5e23cca902/c_counter_binary_0_sim_netlist.v to c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_2/c_counter_binary_2_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_2/c_counter_binary_2_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/ip/2023.1.1/6/2/62eb0f5e23cca902/c_counter_binary_0_sim_netlist.vhdl to c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_2/c_counter_binary_2_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_2/c_counter_binary_2_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/ip/2023.1.1/6/2/62eb0f5e23cca902/c_counter_binary_0_stub.v to c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_2/c_counter_binary_2_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_2/c_counter_binary_2_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/ip/2023.1.1/6/2/62eb0f5e23cca902/c_counter_binary_0_stub.vhdl to c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_2/c_counter_binary_2_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_2/c_counter_binary_2_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP c_counter_binary_2, cache-ID = 62eb0f5e23cca902; cache size = 0.103 MB.
+INFO: [Project 1-385] File 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci' already exists in fileset 'sources_1'; deleting from fileset 'c_counter_binary_2'.
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci' is already up-to-date
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'c_counter_binary_1'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: c_counter_binary_1
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 62eb0f5e23cca902 to dir: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/ip/2023.1.1/6/2/62eb0f5e23cca902/c_counter_binary_0.dcp to c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_1/c_counter_binary_1.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_1/c_counter_binary_1.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/ip/2023.1.1/6/2/62eb0f5e23cca902/c_counter_binary_0_sim_netlist.v to c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_1/c_counter_binary_1_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_1/c_counter_binary_1_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/ip/2023.1.1/6/2/62eb0f5e23cca902/c_counter_binary_0_sim_netlist.vhdl to c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_1/c_counter_binary_1_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_1/c_counter_binary_1_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/ip/2023.1.1/6/2/62eb0f5e23cca902/c_counter_binary_0_stub.v to c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_1/c_counter_binary_1_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_1/c_counter_binary_1_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.cache/ip/2023.1.1/6/2/62eb0f5e23cca902/c_counter_binary_0_stub.vhdl to c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_1/c_counter_binary_1_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.gen/sources_1/ip/c_counter_binary_1/c_counter_binary_1_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP c_counter_binary_1, cache-ID = 62eb0f5e23cca902; cache size = 0.103 MB.
+INFO: [Project 1-385] File 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_1/c_counter_binary_1.xci' already exists in fileset 'sources_1'; deleting from fileset 'c_counter_binary_1'.
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_1/c_counter_binary_1.xci' is already up-to-date
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: clk_wiz_0
+ERROR: [Vivado 12-3280] Incremental checkpoint file 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/utils_1/imports/synth_1/top.dcp' set on run 'synth_1' does not exist.
+launch_runs synth_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_3/c_counter_binary_3.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/sources_1/ip/c_counter_binary_1/c_counter_binary_1.xci' is already up-to-date
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: clk_wiz_0
+ERROR: [Vivado 12-3280] Incremental checkpoint file 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj 11.srcs/utils_1/imports/synth_1/top.dcp' set on run 'synth_1' does not exist.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Dec  2 23:09:10 2023...

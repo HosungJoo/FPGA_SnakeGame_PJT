@@ -1,0 +1,1228 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Sat Dec  2 23:27:50 2023
+# Process ID: 53208
+# Current directory: C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/impl_1
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/impl_1/top.vdi
+# Journal file: C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/impl_1\vivado.jou
+# Running On: DESKTOP-BG4TAG2, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 17092 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: link_design -top top -part xc7a75tfgg484-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a75tfgg484-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'nolabel_line56'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/c_counter_binary_0/c_counter_binary_0.dcp' for cell 'nolabel_line119/nolabel_line31'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/c_counter_binary_1/c_counter_binary_1.dcp' for cell 'nolabel_line119/nolabel_line32'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/c_counter_binary_2/c_counter_binary_2.dcp' for cell 'nolabel_line119/nolabel_line33'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/c_counter_binary_3/c_counter_binary_3.dcp' for cell 'nolabel_line119/nolabel_line34'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 922.426 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 139 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-35] Removing redundant IBUF, nolabel_line56/inst/clkin1_ibufg, from the path connected to top-level port: CLK100MHZ 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'nolabel_line56/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+Parsing XDC File [c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'nolabel_line56/inst'
+Finished Parsing XDC File [c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'nolabel_line56/inst'
+Parsing XDC File [c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'nolabel_line56/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [c:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'nolabel_line56/inst'
+Parsing XDC File [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.srcs/constrs_1/imports/xdc/pin_mapped.xdc]
+Finished Parsing XDC File [C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.srcs/constrs_1/imports/xdc/pin_mapped.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1556.320 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+14 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a75t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a75t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.716 . Memory (MB): peak = 1556.320 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 14c22ee65
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 1574.188 ; gain = 17.867
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 14c22ee65
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.075 . Memory (MB): peak = 1899.500 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Retarget, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 1a8c87228
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.088 . Memory (MB): peak = 1899.500 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 17ddfefb9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.108 . Memory (MB): peak = 1899.500 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 3 cells and removed 3 cells
+INFO: [Opt 31-1021] In phase Sweep, 2 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG CLK100MHZ_IBUF_BUFG_inst to drive 737 load(s) on clock net CLK100MHZ_IBUF_BUFG
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+Phase 4 BUFG optimization | Checksum: 181e41a15
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.144 . Memory (MB): peak = 1899.500 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 1 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: feafcaa5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.226 . Memory (MB): peak = 1899.500 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 146948e6a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.231 . Memory (MB): peak = 1899.500 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              1  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               3  |               3  |                                              2  |
+|  BUFG optimization            |               1  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1899.500 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 142574ac4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.239 . Memory (MB): peak = 1899.500 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 142574ac4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1899.500 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 142574ac4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1899.500 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1899.500 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 142574ac4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1899.500 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+36 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+INFO: [runtcl-4] Executing : report_drc -file top_drc_opted.rpt -pb top_drc_opted.pb -rpx top_drc_opted.rpx
+Command: report_drc -file top_drc_opted.rpt -pb top_drc_opted.pb -rpx top_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/impl_1/top_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1899.500 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/impl_1/top_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a75t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a75t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1899.500 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: f849e3ac
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1899.500 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1899.500 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1b5e805f8
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.245 . Memory (MB): peak = 1899.500 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 24ae66670
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.552 . Memory (MB): peak = 1899.500 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 24ae66670
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.555 . Memory (MB): peak = 1899.500 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 24ae66670
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.560 . Memory (MB): peak = 1899.500 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 1fe7544a1
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.809 . Memory (MB): peak = 1899.500 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 1f4e650d8
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.899 . Memory (MB): peak = 1899.500 ; gain = 0.000
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 1f4e650d8
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.903 . Memory (MB): peak = 1899.500 ; gain = 0.000
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 1ceb15da0
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 1899.500 ; gain = 0.000
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 18 LUTNM shape to break, 13 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 18, total 18, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 21 nets or LUTs. Breaked 18 LUTs, combined 3 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1903.074 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |           18  |              3  |                    21  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |           18  |              3  |                    21  |           0  |           9  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 17b3811f1
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1903.074 ; gain = 3.574
+Phase 2.4 Global Placement Core | Checksum: 249a4be65
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1903.074 ; gain = 3.574
+Phase 2 Global Placement | Checksum: 249a4be65
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1903.074 ; gain = 3.574
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1e8d5b52a
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1903.074 ; gain = 3.574
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 27a7c3f16
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1903.074 ; gain = 3.574
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 27c66303b
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1903.074 ; gain = 3.574
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1d1f47a57
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1903.074 ; gain = 3.574
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: 1e4acb4f3
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1903.074 ; gain = 3.574
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 21ec1a3ca
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 1903.074 ; gain = 3.574
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 1ff6f674e
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 1903.074 ; gain = 3.574
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 1fc592404
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 1903.074 ; gain = 3.574
+
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: 1d6cf3808
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:15 . Memory (MB): peak = 1903.074 ; gain = 3.574
+Phase 3 Detail Placement | Checksum: 1d6cf3808
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:15 . Memory (MB): peak = 1903.074 ; gain = 3.574
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1015660f5
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.314 | TNS=-5063.108 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1096b5e8c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.061 . Memory (MB): peak = 1923.297 ; gain = 0.000
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to netlist editing failed: 0.
+Ending Physical Synthesis Task | Checksum: 1096b5e8c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 1923.297 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1015660f5
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:16 . Memory (MB): peak = 1923.297 ; gain = 23.797
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-12.014. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: f53fa0a1
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:52 . Memory (MB): peak = 1923.297 ; gain = 23.797
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:52 . Memory (MB): peak = 1923.297 ; gain = 23.797
+Phase 4.1 Post Commit Optimization | Checksum: f53fa0a1
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:52 . Memory (MB): peak = 1923.297 ; gain = 23.797
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: f53fa0a1
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:52 . Memory (MB): peak = 1923.297 ; gain = 23.797
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                2x2|
+|___________|___________________|___________________|
+|      South|                1x1|                1x1|
+|___________|___________________|___________________|
+|       East|                1x1|                1x1|
+|___________|___________________|___________________|
+|       West|                1x1|                2x2|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: f53fa0a1
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:52 . Memory (MB): peak = 1923.297 ; gain = 23.797
+Phase 4.3 Placer Reporting | Checksum: f53fa0a1
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:52 . Memory (MB): peak = 1923.297 ; gain = 23.797
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1923.297 ; gain = 0.000
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:52 . Memory (MB): peak = 1923.297 ; gain = 23.797
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: fb7c9528
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:52 . Memory (MB): peak = 1923.297 ; gain = 23.797
+Ending Placer Task | Checksum: 1901131a
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:52 . Memory (MB): peak = 1923.297 ; gain = 23.797
+INFO: [Common 17-83] Releasing license: Implementation
+79 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+INFO: [runtcl-4] Executing : report_io -file top_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1923.297 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_placed.rpt -pb top_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file top_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1923.297 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.149 . Memory (MB): peak = 1936.148 ; gain = 12.852
+INFO: [Common 17-1381] The checkpoint 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/impl_1/top_placed.dcp' has been generated.
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a75t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a75t'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.169 . Memory (MB): peak = 1936.148 ; gain = 0.000
+INFO: [Vivado_Tcl 4-1435] PhysOpt_Tcl_Interface Runtime Before Starting Physical Synthesis Task | CPU: 0.00s |  WALL: 0.18s
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1936.148 ; gain = 0.000
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.236 | TNS=-5021.866 |
+Phase 1 Physical Synthesis Initialization | Checksum: 95baebdb
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.172 . Memory (MB): peak = 1936.148 ; gain = 0.000
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.236 | TNS=-5021.866 |
+
+Phase 2 DSP Register Optimization
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 2 DSP Register Optimization | Checksum: 95baebdb
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.177 . Memory (MB): peak = 1936.148 ; gain = 0.000
+
+Phase 3 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.236 | TNS=-5021.866 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[4].  Re-placed instance nolabel_line71/count_reg[4]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[4]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.236 | TNS=-5021.539 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[5].  Re-placed instance nolabel_line71/count_reg[5]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[5]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.236 | TNS=-5021.212 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[6].  Re-placed instance nolabel_line71/count_reg[6]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[6]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.236 | TNS=-5020.885 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[7].  Re-placed instance nolabel_line71/count_reg[7]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[7]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.193 | TNS=-5020.558 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[20].  Re-placed instance nolabel_line71/count_reg[20]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[20]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.193 | TNS=-5020.345 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[21].  Re-placed instance nolabel_line71/count_reg[21]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[21]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.193 | TNS=-5020.132 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[22].  Re-placed instance nolabel_line71/count_reg[22]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[22]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.193 | TNS=-5019.919 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[23].  Re-placed instance nolabel_line71/count_reg[23]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[23]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.190 | TNS=-5019.706 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[10].  Re-placed instance nolabel_line71/count_reg[10]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[10]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.190 | TNS=-5019.398 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[11].  Re-placed instance nolabel_line71/count_reg[11]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[11]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.190 | TNS=-5019.090 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[8].  Re-placed instance nolabel_line71/count_reg[8]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[8]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.190 | TNS=-5018.782 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[9].  Re-placed instance nolabel_line71/count_reg[9]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[9]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.107 | TNS=-5018.474 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[0].  Re-placed instance nolabel_line71/count_reg[0]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[0]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.107 | TNS=-5018.249 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[1].  Re-placed instance nolabel_line71/count_reg[1]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.107 | TNS=-5018.024 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[2].  Re-placed instance nolabel_line71/count_reg[2]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[2]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.107 | TNS=-5017.799 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[3].  Re-placed instance nolabel_line71/count_reg[3]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[3]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.098 | TNS=-5017.577 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[12].  Re-placed instance nolabel_line71/count_reg[12]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[12]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.098 | TNS=-5017.364 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[13].  Re-placed instance nolabel_line71/count_reg[13]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[13]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.098 | TNS=-5017.151 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[14].  Re-placed instance nolabel_line71/count_reg[14]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[14]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.098 | TNS=-5016.938 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[15].  Re-placed instance nolabel_line71/count_reg[15]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[15]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.052 | TNS=-5016.725 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[16].  Re-placed instance nolabel_line71/count_reg[16]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[16]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.052 | TNS=-5016.558 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/count_reg[17].  Re-placed instance nolabel_line71/count_reg[17]
+INFO: [Physopt 32-735] Processed net nolabel_line71/count_reg[17]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.052 | TNS=-5016.391 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/count_reg[18]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line119/nolabel_line34/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/Q[0].  Re-placed instance nolabel_line119/nolabel_line34/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[1]
+INFO: [Physopt 32-735] Processed net nolabel_line119/nolabel_line34/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/Q[0]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-12.027 | TNS=-5012.567 |
+INFO: [Physopt 32-702] Processed net nolabel_line119/nolabel_line34/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/Q[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/CO[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_x[1][5]_i_10_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.953 | TNS=-4982.227 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_x[1][5]_i_8_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.859 | TNS=-4943.688 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_10_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_22_n_6. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_23_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_47_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_59_n_2. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_107_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_106_n_3. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_64_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 25 pins.
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_x[1][5]_i_115_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.664 | TNS=-4863.737 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_57_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_58_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_88_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_126_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_122_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 18 pins.
+INFO: [Physopt 32-735] Processed net nolabel_line89/clear. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.499 | TNS=-4772.255 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_y_reg[31][2]_0[4].  Re-placed instance nolabel_line71/snake_y_reg[0][5]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_y_reg[31][2]_0[4]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4771.835 |
+INFO: [Physopt 32-702] Processed net nolabel_line89/clear. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/B[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/nolabel_line71/PCOUT[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/count3_i_6_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/nolabel_line71/C[13]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/count3_i_14_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/count3_i_27_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/count3_i_31_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/count3_i_50_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/count3_n_101. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net CLK100MHZ_IBUF. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net CLK100MHZ. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/vga_reg[11]_0[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_y_reg[31][2]_0[44].  Re-placed instance nolabel_line71/snake_y_reg[13][1]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_y_reg[31][2]_0[44]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4771.815 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_y_reg[31][2]_0[44]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net nolabel_line58/nolabel_line47/D[3]. Critical path length was reduced through logic transformation on cell nolabel_line58/nolabel_line47/vga[3]_i_1_comp.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[3]_i_2_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4771.666 |
+INFO: [Physopt 32-663] Processed net nolabel_line58/vga_reg[8]_lopt_replica_1.  Re-placed instance nolabel_line58/vga_reg[8]_lopt_replica
+INFO: [Physopt 32-735] Processed net nolabel_line58/vga_reg[8]_lopt_replica_1. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4771.450 |
+INFO: [Physopt 32-702] Processed net nolabel_line58/vga_reg[8]_lopt_replica_1. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net nolabel_line58/nolabel_line47/D[4]. Critical path length was reduced through logic transformation on cell nolabel_line58/nolabel_line47/vga[8]_i_2_comp.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_6_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4771.277 |
+INFO: [Physopt 32-81] Processed net nolabel_line89/game_status[1]. Replicated 2 times.
+INFO: [Physopt 32-735] Processed net nolabel_line89/game_status[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4770.007 |
+INFO: [Physopt 32-663] Processed net nolabel_line89/game_status[1].  Re-placed instance nolabel_line89/game_status_reg[1]
+INFO: [Physopt 32-735] Processed net nolabel_line89/game_status[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4768.670 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_y_reg[31][2]_0[36]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_22_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_50_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4768.148 |
+INFO: [Physopt 32-81] Processed net nolabel_line89/game_status[1]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net nolabel_line89/game_status[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4768.050 |
+INFO: [Physopt 32-702] Processed net nolabel_line89/game_status[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[3]_i_2_n_0.  Re-placed instance nolabel_line58/nolabel_line47/vga[3]_i_2_comp
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[3]_i_2_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4767.998 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 23 pins.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[3]_i_2_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4767.961 |
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[3]_i_2_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net nolabel_line58/nolabel_line47/vga[3]_i_2_n_0. Critical path length was reduced through logic transformation on cell nolabel_line58/nolabel_line47/vga[3]_i_2_comp_2.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[3]_i_4_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4767.784 |
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_50_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net nolabel_line58/nolabel_line47/vga[8]_i_50_n_0. Critical path length was reduced through logic transformation on cell nolabel_line58/nolabel_line47/vga[8]_i_50_comp.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_127_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4767.686 |
+INFO: [Physopt 32-81] Processed net nolabel_line58/nolabel_line47/vga[8]_i_17_n_0. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_17_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4767.668 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_y_reg[31][2]_0[6].  Re-placed instance nolabel_line71/snake_y_reg[1][1]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_y_reg[31][2]_0[6]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4767.524 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_x_reg[31][3]_0[108].  Re-placed instance nolabel_line71/snake_x_reg[29][2]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_x_reg[31][3]_0[108]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4767.288 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[31][3]_0[108]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_53_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_141_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net nolabel_line58/nolabel_line47/vga[8]_i_141_n_0. Critical path length was reduced through logic transformation on cell nolabel_line58/nolabel_line47/vga[8]_i_141_comp.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_216_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4767.230 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_piece_is_display[23].  Re-placed instance nolabel_line71/snake_piece_is_display_reg[23]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_piece_is_display[23]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4767.208 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_y_temp[139].  Re-placed instance nolabel_line71/snake_y_reg[23][1]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_y_temp[139]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4766.918 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_y_reg[31][2]_0[54].  Re-placed instance nolabel_line71/snake_y_reg[16][1]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_y_reg[31][2]_0[54]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4767.208 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/count_reg[18]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/nolabel_line34/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/Q[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/CO[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_10_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_22_n_6. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_47_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_59_n_2. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_107_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_106_n_3. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_126_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_122_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line89/clear. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/B[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/nolabel_line71/PCOUT[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/nolabel_line71/C[13]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/count3_i_27_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/count3_i_50_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/count3_n_101. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net CLK100MHZ_IBUF. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net CLK100MHZ. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/vga_reg[8]_lopt_replica_1. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_y_reg[31][2]_0[54]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[8]_i_22_n_0.  Re-placed instance nolabel_line58/nolabel_line47/vga[8]_i_22
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_22_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4766.950 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 19 pins.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_22_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4766.742 |
+INFO: [Physopt 32-702] Processed net nolabel_line58/vga_reg[11]_0[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line89/game_status[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[3]_i_2_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[3]_i_5_n_0.  Re-placed instance nolabel_line58/nolabel_line47/vga[3]_i_5
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[3]_i_5_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4766.737 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_y_reg[31][2]_0[60].  Re-placed instance nolabel_line71/snake_y_reg[17][1]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_y_reg[31][2]_0[60]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4767.103 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_y_reg[31][2]_0[60]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_21_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[8]_i_48_n_0.  Re-placed instance nolabel_line58/nolabel_line47/vga[8]_i_48
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_48_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4767.091 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_x_reg[31][3]_0[103].  Re-placed instance nolabel_line71/snake_x_reg[28][3]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_x_reg[31][3]_0[103]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4766.828 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_piece_is_display[28].  Re-placed instance nolabel_line71/snake_piece_is_display_reg[28]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_piece_is_display[28]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4766.659 |
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_48_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_124_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 16 pins.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_202_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4766.653 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_x_reg[31][3]_0[102].  Re-placed instance nolabel_line71/snake_x_reg[28][2]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_x_reg[31][3]_0[102]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4766.549 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[31][3]_0[103]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[8]_i_121_n_0.  Re-placed instance nolabel_line58/nolabel_line47/vga[8]_i_121
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_121_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4766.419 |
+INFO: [Physopt 32-663] Processed net nolabel_line111/apple_y_reg[4]_0[1].  Re-placed instance nolabel_line111/apple_y_reg[1]
+INFO: [Physopt 32-735] Processed net nolabel_line111/apple_y_reg[4]_0[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4765.678 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_y_reg[31][2]_0[5].  Re-placed instance nolabel_line71/snake_y_reg[1][0]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_y_reg[31][2]_0[5]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4765.503 |
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4765.503 |
+Phase 3 Critical Path Optimization | Checksum: 1a3b517b8
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1936.148 ; gain = 0.000
+
+Phase 4 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4765.503 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/count_reg[18]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/nolabel_line34/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/Q[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/CO[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_10_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_22_n_6. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_23_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_47_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_59_n_2. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_107_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_106_n_3. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_64_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_57_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_58_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_88_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_126_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_122_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line89/clear. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/B[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/nolabel_line71/PCOUT[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/count3_i_6_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/nolabel_line71/C[13]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/count3_i_14_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/count3_i_27_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/count3_i_31_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/count3_i_50_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/count3_n_101. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net CLK100MHZ_IBUF. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net CLK100MHZ. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/vga_reg[8]_lopt_replica_1. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_y_reg[31][2]_0[44]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[8]_i_17_n_0_repN.  Re-placed instance nolabel_line58/nolabel_line47/vga[8]_i_17_replica
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_17_n_0_repN. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4765.499 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_17_n_0_repN. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4765.403 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_y_reg[31][2]_0[73].  Re-placed instance nolabel_line71/snake_y_reg[21][0]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_y_reg[31][2]_0[73]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4765.670 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_y_reg[31][2]_0[73]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_21_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_46_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net nolabel_line58/nolabel_line47/vga[8]_i_46_n_0. Critical path length was reduced through logic transformation on cell nolabel_line58/nolabel_line47/vga[8]_i_46_comp.
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_y_reg[21][1]_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4765.169 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[31][3]_0[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_22_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_54_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_147_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[8]_i_225_n_0.  Re-placed instance nolabel_line58/nolabel_line47/vga[8]_i_225
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_225_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4765.041 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[31][3]_0[102]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_48_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net nolabel_line58/nolabel_line47/vga[8]_i_48_n_0. Critical path length was reduced through logic transformation on cell nolabel_line58/nolabel_line47/vga[8]_i_48_comp.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_120_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4765.037 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[31][3]_0[103]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_121_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[8]_i_198_n_0.  Re-placed instance nolabel_line58/nolabel_line47/vga[8]_i_198
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_198_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4765.025 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_y_temp[105]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_x_reg[17][2]_0.  Re-placed instance nolabel_line71/vga[8]_i_122
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_x_reg[17][2]_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4765.017 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_y_reg[31][2]_0[5]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[8]_i_224_n_0.  Re-placed instance nolabel_line58/nolabel_line47/vga[8]_i_224
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_224_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4765.005 |
+INFO: [Physopt 32-702] Processed net nolabel_line58/vga_reg[11]_0[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net nolabel_line111/apple_y_reg[4]_0[1]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net nolabel_line111/apple_y_reg[4]_0[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4764.950 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_x_reg[31][3]_0[87].  Re-placed instance nolabel_line71/snake_x_reg[23][4]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_x_reg[31][3]_0[87]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4764.759 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_x_reg[31][3]_0[32].  Re-placed instance nolabel_line71/snake_x_reg[9][3]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_x_reg[31][3]_0[32]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4764.539 |
+INFO: [Physopt 32-702] Processed net nolabel_line111/apple_y_reg[4]_0[1]_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[3]_i_2_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[11]_i_3_n_0.  Re-placed instance nolabel_line58/nolabel_line47/vga[11]_i_3
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[11]_i_3_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4764.256 |
+INFO: [Physopt 32-710] Processed net nolabel_line58/nolabel_line47/vga[8]_i_147_n_0. Critical path length was reduced through logic transformation on cell nolabel_line58/nolabel_line47/vga[8]_i_147_comp.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_224_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4764.238 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_y_reg[31][2]_0[54]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 16 pins.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_53_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4764.230 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_y_reg[31][2]_0[36]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_50_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net nolabel_line58/nolabel_line47/vga[8]_i_50_n_0. Critical path length was reduced through logic transformation on cell nolabel_line58/nolabel_line47/vga[8]_i_50_comp_1.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_205_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4764.206 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_y_reg[31][2]_0[90].  Re-placed instance nolabel_line71/snake_y_reg[26][0]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_y_reg[31][2]_0[90]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4764.113 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_x_reg[31][3]_0[85].  Re-placed instance nolabel_line71/snake_x_reg[23][2]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_x_reg[31][3]_0[85]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4763.933 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_y_reg[31][2]_0[38].  Re-placed instance nolabel_line71/snake_y_reg[10][5]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_y_reg[31][2]_0[38]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4763.697 |
+INFO: [Physopt 32-663] Processed net nolabel_line58/vga_reg[10]_lopt_replica_1.  Re-placed instance nolabel_line58/vga_reg[10]_lopt_replica
+INFO: [Physopt 32-735] Processed net nolabel_line58/vga_reg[10]_lopt_replica_1. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4763.193 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_x_reg[31][3]_0[2].  Re-placed instance nolabel_line71/snake_x_reg[1][2]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_x_reg[31][3]_0[2]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4763.106 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_y_reg[31][2]_0[39].  Re-placed instance nolabel_line71/snake_y_reg[11][0]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_y_reg[31][2]_0[39]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4762.966 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_y_temp[43].  Re-placed instance nolabel_line71/snake_y_reg[7][1]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_y_temp[43]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4762.950 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_y_reg[31][2]_0[60]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_124_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net nolabel_line58/nolabel_line47/vga[8]_i_124_n_0. Critical path length was reduced through logic transformation on cell nolabel_line58/nolabel_line47/vga[8]_i_124_comp.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_202_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4762.924 |
+INFO: [Physopt 32-702] Processed net nolabel_line89/game_status[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[10]_i_7_n_0.  Re-placed instance nolabel_line58/nolabel_line47/vga[10]_i_7
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[10]_i_7_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4762.922 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 23 pins.
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_17_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4762.818 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_temp[168]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net nolabel_line58/nolabel_line47/vga[8]_i_121_n_0. Critical path length was reduced through logic transformation on cell nolabel_line58/nolabel_line47/vga[8]_i_121_comp.
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_y_reg[28][1]_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4762.816 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_x_reg[31][3]_0[5].  Re-placed instance nolabel_line71/snake_x_reg[1][5]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_x_reg[31][3]_0[5]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4762.789 |
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_225_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/D[4]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/count_reg[18]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/nolabel_line34/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/Q[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/CO[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_10_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_22_n_6. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_47_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_59_n_2. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_107_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[1][5]_i_106_n_3. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_126_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x[1][5]_i_122_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line89/clear. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/B[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/nolabel_line71/PCOUT[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/nolabel_line71/C[13]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/count3_i_27_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line119/count3_i_50_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/count3_n_101. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net CLK100MHZ_IBUF. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net CLK100MHZ. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/vga_reg[8]_lopt_replica_1. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[31][3]_0[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_22_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[8]_i_54_n_0.  Re-placed instance nolabel_line58/nolabel_line47/vga[8]_i_54
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_54_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4762.743 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[31][3]_0[78]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_21_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_47_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_116_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_191_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[8]_i_241_n_0.  Re-placed instance nolabel_line58/nolabel_line47/vga[8]_i_241
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_241_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4762.719 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_x_reg[31][3]_0[25].  Re-placed instance nolabel_line71/snake_x_reg[6][5]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_x_reg[31][3]_0[25]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4763.145 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[31][3]_0[25]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_y_reg[6][1]_0.  Re-placed instance nolabel_line71/vga[8]_i_119
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_y_reg[6][1]_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4762.704 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_piece_is_display[6].  Re-placed instance nolabel_line71/snake_piece_is_display_reg[6]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_piece_is_display[6]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4762.586 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_y_reg[31][2]_0[35]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[8]_i_50_n_0.  Re-placed instance nolabel_line58/nolabel_line47/vga[8]_i_50_comp_1
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_50_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4762.586 |
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_piece_is_display[7].  Re-placed instance nolabel_line71/snake_piece_is_display_reg[7]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_piece_is_display[7]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4762.578 |
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_y_temp[139]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_52_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[8]_i_135_n_0.  Re-placed instance nolabel_line58/nolabel_line47/vga[8]_i_135
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_135_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-11.427 | TNS=-4762.548 |
+INFO: [Common 17-14] Message 'Physopt 32-619' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Physopt 32-663] Processed net nolabel_line58/vga_reg[11]_0[7].  Re-placed instance nolabel_line58/vga_reg[10]
+INFO: [Physopt 32-735] Processed net nolabel_line58/vga_reg[11]_0[7]. Optimization improves timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[31][3]_0[87]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_136_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[8]_i_212_n_0.  Re-placed instance nolabel_line58/nolabel_line47/vga[8]_i_212
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_212_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line71/Q[10].  Re-placed instance nolabel_line71/snake_piece_is_display_reg[29]
+INFO: [Physopt 32-735] Processed net nolabel_line71/Q[10]. Optimization improves timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[31][3]_0[119]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_46_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line58/nolabel_line47/vga[8]_i_115_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line58/nolabel_line47/vga[8]_i_189_n_0.  Re-placed instance nolabel_line58/nolabel_line47/vga[8]_i_189
+INFO: [Physopt 32-735] Processed net nolabel_line58/nolabel_line47/vga[8]_i_189_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line71/snake_y_reg[31][2]_0[84].  Re-placed instance nolabel_line71/snake_y_reg[24][1]
+INFO: [Physopt 32-735] Processed net nolabel_line71/snake_y_reg[31][2]_0[84]. Optimization improves timing on the net.
+INFO: [Common 17-14] Message 'Physopt 32-735' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_y_reg[31][2]_0[84]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net nolabel_line71/snake_x_reg[24][1]_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net nolabel_line71/vga[8]_i_132_n_0.  Re-placed instance nolabel_line71/vga[8]_i_132
+Phase 4 Critical Path Optimization | Checksum: 54ede27b
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1936.148 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1936.148 ; gain = 0.000
+INFO: [Physopt 32-603] Post Physical Optimization Timing Summary | WNS=-11.427 | TNS=-4762.450 |
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization   |  WNS Gain (ns)  |  TNS Gain (ns)  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  DSP Register   |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Critical Path  |          0.809  |        259.416  |            5  |              0  |                   101  |           0  |           2  |  00:00:11  |
+|  Total          |          0.809  |        259.416  |            5  |              0  |                   101  |           0  |           3  |  00:00:11  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1936.148 ; gain = 0.000
+Ending Physical Synthesis Task | Checksum: 5c40d34d
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1936.148 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+558 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.188 . Memory (MB): peak = 1946.285 ; gain = 10.137
+INFO: [Common 17-1381] The checkpoint 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/impl_1/top_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a75t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a75t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 177ead6 ConstDB: 0 ShapeSum: 48117a40 RouteDB: 0
+Post Restoration Checksum: NetGraph: d123789e | NumContArr: 50ad7ab8 | Constraints: 190a55ad | Timing: 0
+Phase 1 Build RT Design | Checksum: 13adb4903
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 2069.348 ; gain = 122.855
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 13adb4903
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 2069.348 ; gain = 122.855
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 13adb4903
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 2069.348 ; gain = 122.855
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 199d9adc8
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 2088.859 ; gain = 142.367
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-11.266| TNS=-4668.762| WHS=-0.143 | THS=-6.596 |
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 2216
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 2216
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: bf410f1b
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 2090.961 ; gain = 144.469
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: bf410f1b
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 2090.961 ; gain = 144.469
+Phase 3 Initial Routing | Checksum: 245627506
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 2090.961 ; gain = 144.469
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 955
+ Number of Nodes with overlaps = 344
+ Number of Nodes with overlaps = 179
+ Number of Nodes with overlaps = 99
+ Number of Nodes with overlaps = 56
+ Number of Nodes with overlaps = 31
+ Number of Nodes with overlaps = 17
+ Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-12.245| TNS=-5090.166| WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 138e66094
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:28 . Memory (MB): peak = 2090.961 ; gain = 144.469
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 64
+ Number of Nodes with overlaps = 46
+ Number of Nodes with overlaps = 35
+ Number of Nodes with overlaps = 15
+ Number of Nodes with overlaps = 15
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-12.219| TNS=-5070.729| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1b50ffcfe
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:29 . Memory (MB): peak = 2090.961 ; gain = 144.469
+Phase 4 Rip-up And Reroute | Checksum: 1b50ffcfe
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:29 . Memory (MB): peak = 2090.961 ; gain = 144.469
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 16bc9a5b3
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:29 . Memory (MB): peak = 2090.961 ; gain = 144.469
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-12.124| TNS=-5036.300| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 1b475772e
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 2097.789 ; gain = 151.297
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1b475772e
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 2097.789 ; gain = 151.297
+Phase 5 Delay and Skew Optimization | Checksum: 1b475772e
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 2097.789 ; gain = 151.297
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 231b4a8b1
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 2097.789 ; gain = 151.297
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-12.110| TNS=-5031.924| WHS=0.106  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 231b4a8b1
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 2097.789 ; gain = 151.297
+Phase 6 Post Hold Fix | Checksum: 231b4a8b1
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 2097.789 ; gain = 151.297
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.688428 %
+  Global Horizontal Routing Utilization  = 0.704675 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+
+--GLOBAL Congestion:
+Utilization threshold used for congestion level computation: 0.85
+Congestion Report
+North Dir 1x1 Area, Max Cong = 59.4595%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 72.973%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 54.4118%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 76.4706%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 7 Route finalize | Checksum: 284f7dd21
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 2097.789 ; gain = 151.297
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 284f7dd21
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 2097.789 ; gain = 151.297
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1db636915
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 2097.789 ; gain = 151.297
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-12.110| TNS=-5031.924| WHS=0.106  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 1db636915
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 2097.789 ; gain = 151.297
+INFO: [Route 35-16] Router Completed Successfully
+
+Phase 11 Post-Route Event Processing
+Phase 11 Post-Route Event Processing | Checksum: a0f4ab31
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 2097.789 ; gain = 151.297
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 2097.789 ; gain = 151.297
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+577 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+INFO: [runtcl-4] Executing : report_drc -file top_drc_routed.rpt -pb top_drc_routed.pb -rpx top_drc_routed.rpx
+Command: report_drc -file top_drc_routed.rpt -pb top_drc_routed.pb -rpx top_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/impl_1/top_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file top_methodology_drc_routed.rpt -pb top_methodology_drc_routed.pb -rpx top_methodology_drc_routed.rpx
+Command: report_methodology -file top_methodology_drc_routed.rpt -pb top_methodology_drc_routed.pb -rpx top_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/impl_1/top_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
+Command: report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+588 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file top_route_status.rpt -pb top_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file top_timing_summary_routed.rpt -pb top_timing_summary_routed.pb -rpx top_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file top_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file top_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file top_bus_skew_routed.rpt -pb top_bus_skew_routed.pb -rpx top_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.187 . Memory (MB): peak = 2139.086 ; gain = 2.008
+INFO: [Common 17-1381] The checkpoint 'C:/Users/master/iCloudDrive/04. Logic Design Lab/FINAL_PROJ/snake_proj/snake_proj.runs/impl_1/top_routed.dcp' has been generated.
+INFO: [Common 17-206] Exiting Vivado at Sat Dec  2 23:29:52 2023...
